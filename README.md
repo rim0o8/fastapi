@@ -13,15 +13,15 @@ FastAPIを使用したユーザー管理APIのテンプレートプロジェク�
 ## 技術スタック
 
 - Python 3.13+
-- FastAPI - 高速なWeb APIフレームワーク
+- FastAPI - Web APIフレームワーク
 - Pydantic - データバリデーション
 - Uvicorn - ASGIサーバー
 
 ## プロジェクトの始め方
 
 1. このテンプレートを使用して新しいリポジトリを作成
-2. 依存関係をインストール: `pip install -e .`
-3. 開発サーバーを起動: `python -m app.main`
+2. 依存関係をインストール: `uv sync`
+3. 開発サーバーを起動: `uv run python app.main`
 
 ## 実装済みのAPI エンドポイント
 
